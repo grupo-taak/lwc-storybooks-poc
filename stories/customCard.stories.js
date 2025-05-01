@@ -5,7 +5,7 @@ import cCard from 'lightning/card';
 buildAndRegisterCustomElement('c-custon-card', cCard);
 
 storiesOf('CustomCard', module)
-	.add('basic', () => `
+	.add('custom basic', () => `
 		<div class="slds-p-around_medium">
 			<c-custon-card title="Accounts">
 				<p style="padding: 0 1rem">

@@ -5,27 +5,27 @@ import cButton from 'c/customButton';
 buildAndRegisterCustomElement('c-custom-button', cButton);
 
 storiesOf('CustomButton', module)
-	.add('base', () => `
+	.add('custom base', () => `
 		<div class="slds-p-around_medium">
 			<c-custom-button label="Base Button"></c-custom-button>
 		</div>
 	`)
-	.add('neutral', () => `
+	.add('custom neutral', () => `
 		<div class="slds-p-around_medium">
 			<c-custom-button variant="neutral" label="Neutral Button"></c-custom-button>
 		</div>
 	`)
-	.add('brand', () => `
+	.add('custom brand', () => `
 		<div class="slds-p-around_medium">
 			<c-custom-button variant="brand" label="Brand Button"></c-custom-button>
 		</div>
 	`)
-	.add('destructive', () => `
+	.add('custom destructive', () => `
 		<div class="slds-p-around_medium">
 			<c-custom-button variant="destructive" label="Destructive Button"></c-custom-button>
 		</div>
 	`)
-	.add('success', () => `
+	.add('custom success', () => `
 		<div class="slds-p-around_medium">
 			<c-custom-button variant="success" label="Success Button"></c-custom-button>
 		</div>

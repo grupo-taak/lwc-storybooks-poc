@@ -7,16 +7,16 @@ buildAndRegisterCustomElement('lightning-badge', Badge);
 storiesOf('Badge', module)
 	.add('default', () => `
 		<div class="slds-p-around_medium">
-			<lightning-badge label="Default"></c-badge>
+			<lightning-badge label="Default"></lightning-badge>
 		</div>
 	`)
 	.add('inverse', () => `
 		<div class="slds-p-around_medium">
-			<lightning-badge variant="inverse" label="Inverse"></c-badge>
+			<lightning-badge variant="inverse" label="Inverse"></lightning-badge>
 		</div>
 	`)
 	.add('lightest', () => `
 		<div class="slds-p-around_medium">
-			<lightning-badge variant="lightest" label="Lightest"></c-badge>
+			<lightning-badge variant="lightest" label="Lightest"></lightning-badge>
 		</div>
 	`);
