@@ -1,5 +1,5 @@
 import { LightningElement, api, track } from 'lwc';
-import { classSet } from 'c/utils';
+import { classSet } from 'lightning/utils';
 import { isNarrow, isBase } from './utils';
 
 export default class cCard extends LightningElement {
