@@ -20,7 +20,6 @@ storiesOf('CustomButton2', module)
 		const label = text('label', 'Hello World');
 		const variant = select('variant', variantOptions, 'base');
 		const disabled = boolean('disabled', false);
-		console.log('disabled =>', disabled);
 
 		return `
 			<div class="slds-p-around_medium">
